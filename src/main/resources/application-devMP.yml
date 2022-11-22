@@ -1,0 +1,10 @@
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      db-type: MYSQL
+  configurtion:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImp

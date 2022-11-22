@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+#cors 白名单
+corsconfig-list: "http://www.baidu.com,http://localhost:8088"
+logging:
+  level:
+    root: info
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+
