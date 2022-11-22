@@ -1,4 +1,4 @@
-package com.yj.springboot_mix.config.exceptioin;
+package com.yj.springboot_mix.config.exception;
 
 
 import lombok.extern.slf4j.Slf4j;
